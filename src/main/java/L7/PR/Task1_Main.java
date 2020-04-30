@@ -14,8 +14,8 @@ public class Task1_Main {
         scanner.useDelimiter("\\Z");
         String data = scanner.next();
 
-        Tsk1_Text text = JSON.parseObject(data, Tsk1_Text.class);
+        Tsk1_Text text1 = JSON.parseObject(data, Tsk1_Text.class);
 
-        System.out.println(text);
+        System.out.println(text1);
     }
 }
